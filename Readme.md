@@ -43,7 +43,7 @@ Below is a flow diagram explaining the text processing and classification workfl
 ## Steps to run
 1. Clone the Repository
     ```bash
-    git clone https://github.com/Nishikant-K-P/Text_classifier-.git
+    git clone https://github.com/Nishikant-K-P/Text_classifier.git
     cd Text_classifier
 2. Install Dependencies: Use the following command to install the required packages from requirements.txt.
     ```bash
