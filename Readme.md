@@ -38,4 +38,21 @@ Below is a flow diagram explaining the text processing and classification workfl
 - CUDA-enabled GPU for faster processing (optional but recommended)
 - Install dependencies:
   ```bash
-  pip install transformers torch pandas tqdm
+  pip install -r requirements.txt
+
+## Steps to run
+1. Clone the Repository
+    ```bash
+    git clone https://github.com/Nishikant-K-P/Text_classifier-.git
+    cd Text_classifier
+2. Install Dependencies: Use the following command to install the required packages from requirements.txt.
+    ```bash
+    pip install -r requirements.txt
+
+3. Set Up Your Data File: Replace "PATH_TO_YOUR_DATAFILE" with the path to your CSV file inside the code.
+
+4. Run the Classification Script:
+    ```bash
+    python text_classifier.py
+
+5. Results: The predictions will be saved to Predictions.xlsx.
